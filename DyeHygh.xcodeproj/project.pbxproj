@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A035B3FD1EA175C400EE3700 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035B3FC1EA175C400EE3700 /* LoginViewController.swift */; };
 		C94C9FB01EA16D150073A4D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C9FAF1EA16D150073A4D1 /* AppDelegate.swift */; };
 		C94C9FB21EA16D150073A4D1 /* FindMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C9FB11EA16D150073A4D1 /* FindMatchViewController.swift */; };
 		C94C9FB51EA16D150073A4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94C9FB31EA16D150073A4D1 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A035B3FC1EA175C400EE3700 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C94C9FAC1EA16D150073A4D1 /* DyeHygh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DyeHygh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94C9FAF1EA16D150073A4D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C94C9FB11EA16D150073A4D1 /* FindMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMatchViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		C94C9FAE1EA16D150073A4D1 /* DyeHygh */ = {
 			isa = PBXGroup;
 			children = (
+				A035B3FC1EA175C400EE3700 /* LoginViewController.swift */,
 				C94C9FAF1EA16D150073A4D1 /* AppDelegate.swift */,
 				C94C9FC31EA176890073A4D1 /* Player.swift */,
 				C94C9FB11EA16D150073A4D1 /* FindMatchViewController.swift */,
@@ -304,6 +307,7 @@
 				C94C9FC01EA16D150073A4D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
