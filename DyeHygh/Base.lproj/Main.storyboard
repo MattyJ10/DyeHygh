@@ -166,23 +166,17 @@
                                 <rect key="frame" x="0.0" y="536" width="375" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Register">
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="didRegister:" destination="yHg-72-BES" eventType="touchUpInside" id="lC7-eI-LAa"/>
                                     <action selector="submit:" destination="yHg-72-BES" eventType="touchUpInside" id="SZ6-oi-w3t"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="bEs-7p-0SA"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b2x-dT-KTv">
-                                <rect key="frame" x="98" y="457" width="178" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sfb-FZ-Xuh">
-                                <rect key="frame" x="98" y="386" width="178" height="30"/>
+                                <rect key="frame" x="98" y="393" width="178" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -195,7 +189,9 @@
                         <outlet property="_email" destination="wfR-Ql-EEG" id="mO6-yg-ruk"/>
                         <outlet property="_name" destination="P4k-Fc-sUJ" id="4WR-et-xwQ"/>
                         <outlet property="_password" destination="b2x-dT-KTv" id="aid-J0-96y"/>
-                        <outlet property="_phone" destination="sfb-FZ-Xuh" id="Zb2-mB-oPY"/>
+                        <outlet property="emailText" destination="wfR-Ql-EEG" id="2sC-c9-6Yw"/>
+                        <outlet property="nameText" destination="P4k-Fc-sUJ" id="4vf-Eq-VEw"/>
+                        <outlet property="passText" destination="b2x-dT-KTv" id="x5e-rp-dGw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4d5-12-jRF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -204,6 +200,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MtO-ek-A7I"/>
+        <segue reference="bEs-7p-0SA"/>
     </inferredMetricsTieBreakers>
 </document>
