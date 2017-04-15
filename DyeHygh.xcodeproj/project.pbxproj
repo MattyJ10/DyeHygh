@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36AA21E7C89FAB4140C1203C /* Pods_DyeHygh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE62A222D17FDB8E6D1FA88 /* Pods_DyeHygh.framework */; };
 		C94C9FB01EA16D150073A4D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C9FAF1EA16D150073A4D1 /* AppDelegate.swift */; };
 		C94C9FB21EA16D150073A4D1 /* FindMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C9FB11EA16D150073A4D1 /* FindMatchViewController.swift */; };
 		C94C9FB51EA16D150073A4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94C9FB31EA16D150073A4D1 /* Main.storyboard */; };
@@ -14,9 +15,13 @@
 		C94C9FBA1EA16D150073A4D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94C9FB81EA16D150073A4D1 /* LaunchScreen.storyboard */; };
 		C94C9FC41EA176890073A4D1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C9FC31EA176890073A4D1 /* Player.swift */; };
 		C94C9FC61EA1CC650073A4D1 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C9FC51EA1CC650073A4D1 /* Queue.swift */; };
+		C94C9FCB1EA1E7410073A4D1 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = C94C9FCA1EA1E7410073A4D1 /* GoogleService-Info (2).plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2157F0721F4CDC6A9105F134 /* Pods-DyeHygh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DyeHygh.release.xcconfig"; path = "Pods/Target Support Files/Pods-DyeHygh/Pods-DyeHygh.release.xcconfig"; sourceTree = "<group>"; };
+		3BD3B9317C40EF8127525D2B /* Pods-DyeHygh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DyeHygh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DyeHygh/Pods-DyeHygh.debug.xcconfig"; sourceTree = "<group>"; };
+		6FE62A222D17FDB8E6D1FA88 /* Pods_DyeHygh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DyeHygh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A035B3FC1EA175C400EE3700 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C94C9FAC1EA16D150073A4D1 /* DyeHygh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DyeHygh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94C9FAF1EA16D150073A4D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +32,8 @@
 		C94C9FBB1EA16D150073A4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C94C9FC31EA176890073A4D1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		C94C9FC51EA1CC650073A4D1 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		C94C9FC81EA1E3620073A4D1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C94C9FCA1EA1E7410073A4D1 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (2).plist"; path = "../../../../Downloads/GoogleService-Info (2).plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36AA21E7C89FAB4140C1203C /* Pods_DyeHygh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C1C13598BEA93137AB6A5CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BD3B9317C40EF8127525D2B /* Pods-DyeHygh.debug.xcconfig */,
+				2157F0721F4CDC6A9105F134 /* Pods-DyeHygh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C94C9FA31EA16D150073A4D1 = {
 			isa = PBXGroup;
 			children = (
 				C94C9FAE1EA16D150073A4D1 /* DyeHygh */,
 				C94C9FAD1EA16D150073A4D1 /* Products */,
+				C94C9FC71EA1E3610073A4D1 /* Frameworks */,
+				5C1C13598BEA93137AB6A5CF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,8 +87,18 @@
 				C94C9FB61EA16D150073A4D1 /* Assets.xcassets */,
 				C94C9FB81EA16D150073A4D1 /* LaunchScreen.storyboard */,
 				C94C9FBB1EA16D150073A4D1 /* Info.plist */,
+				C94C9FCA1EA1E7410073A4D1 /* GoogleService-Info (2).plist */,
 			);
 			path = DyeHygh;
+			sourceTree = "<group>";
+		};
+		C94C9FC71EA1E3610073A4D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94C9FC81EA1E3620073A4D1 /* libsqlite3.tbd */,
+				6FE62A222D17FDB8E6D1FA88 /* Pods_DyeHygh.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,9 +108,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C94C9FBE1EA16D150073A4D1 /* Build configuration list for PBXNativeTarget "DyeHygh" */;
 			buildPhases = (
+				D8354AC30982B499FA7362E7 /* [CP] Check Pods Manifest.lock */,
 				C94C9FA81EA16D150073A4D1 /* Sources */,
 				C94C9FA91EA16D150073A4D1 /* Frameworks */,
 				C94C9FAA1EA16D150073A4D1 /* Resources */,
+				E9469CD74F0CC31AD1EE3FE8 /* [CP] Embed Pods Frameworks */,
+				90C68AED2FF1331E6F77D246 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94C9FCB1EA1E7410073A4D1 /* GoogleService-Info (2).plist in Resources */,
 				C94C9FBA1EA16D150073A4D1 /* LaunchScreen.storyboard in Resources */,
 				C94C9FB71EA16D150073A4D1 /* Assets.xcassets in Resources */,
 				C94C9FB51EA16D150073A4D1 /* Main.storyboard in Resources */,
@@ -139,6 +172,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90C68AED2FF1331E6F77D246 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DyeHygh/Pods-DyeHygh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8354AC30982B499FA7362E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9469CD74F0CC31AD1EE3FE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DyeHygh/Pods-DyeHygh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C94C9FA81EA16D150073A4D1 /* Sources */ = {
@@ -267,6 +348,7 @@
 		};
 		C94C9FBF1EA16D150073A4D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD3B9317C40EF8127525D2B /* Pods-DyeHygh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 98HL2LQWJ8;
@@ -280,6 +362,7 @@
 		};
 		C94C9FC01EA16D150073A4D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2157F0721F4CDC6A9105F134 /* Pods-DyeHygh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 98HL2LQWJ8;
