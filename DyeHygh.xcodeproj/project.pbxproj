@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		36AA21E7C89FAB4140C1203C /* Pods_DyeHygh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE62A222D17FDB8E6D1FA88 /* Pods_DyeHygh.framework */; };
+		C93FC62D1EA2D943007FB8E0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93FC62C1EA2D943007FB8E0 /* RegisterViewController.swift */; };
 		C94C9FB01EA16D150073A4D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C9FAF1EA16D150073A4D1 /* AppDelegate.swift */; };
 		C94C9FB21EA16D150073A4D1 /* FindMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C9FB11EA16D150073A4D1 /* FindMatchViewController.swift */; };
 		C94C9FB51EA16D150073A4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94C9FB31EA16D150073A4D1 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		3BD3B9317C40EF8127525D2B /* Pods-DyeHygh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DyeHygh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DyeHygh/Pods-DyeHygh.debug.xcconfig"; sourceTree = "<group>"; };
 		6FE62A222D17FDB8E6D1FA88 /* Pods_DyeHygh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DyeHygh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A035B3FC1EA175C400EE3700 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C93FC62C1EA2D943007FB8E0 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C94C9FAC1EA16D150073A4D1 /* DyeHygh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DyeHygh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94C9FAF1EA16D150073A4D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C94C9FB11EA16D150073A4D1 /* FindMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMatchViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				A035B3FC1EA175C400EE3700 /* LoginViewController.swift */,
 				C94C9FAF1EA16D150073A4D1 /* AppDelegate.swift */,
 				C94C9FC31EA176890073A4D1 /* Player.swift */,
+				C93FC62C1EA2D943007FB8E0 /* RegisterViewController.swift */,
 				C94C9FB11EA16D150073A4D1 /* FindMatchViewController.swift */,
 				C94C9FB31EA16D150073A4D1 /* Main.storyboard */,
 				C94C9FC51EA1CC650073A4D1 /* Queue.swift */,
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C94C9FB21EA16D150073A4D1 /* FindMatchViewController.swift in Sources */,
+				C93FC62D1EA2D943007FB8E0 /* RegisterViewController.swift in Sources */,
 				C94C9FC41EA176890073A4D1 /* Player.swift in Sources */,
 				C94C9FB01EA16D150073A4D1 /* AppDelegate.swift in Sources */,
 				C94C9FC61EA1CC650073A4D1 /* Queue.swift in Sources */,

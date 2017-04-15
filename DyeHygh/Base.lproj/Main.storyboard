@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24.800000000000001" y="34.632683658170919"/>
+            <point key="canvasLocation" x="66" y="11"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="OXi-wm-6cm">
@@ -95,6 +95,7 @@
                                 <state key="normal" title="Dye High"/>
                                 <connections>
                                     <action selector="LoginButton:" destination="wyd-zu-Of8" eventType="touchUpInside" id="tYn-5L-UmN"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="MtO-ek-A7I"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNG-hu-Fcd">
@@ -103,6 +104,7 @@
                                 <state key="normal" title="Register"/>
                                 <connections>
                                     <action selector="RegisterButton:" destination="wyd-zu-Of8" eventType="touchUpInside" id="sMZ-oV-gy3"/>
+                                    <segue destination="yHg-72-BES" kind="show" id="PK8-OK-dKg"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fTH-9Z-gxc">
@@ -169,6 +171,7 @@
                                 </state>
                                 <connections>
                                     <action selector="submit:" destination="yHg-72-BES" eventType="touchUpInside" id="SZ6-oi-w3t"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="bEs-7p-0SA"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b2x-dT-KTv">
@@ -197,7 +200,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4d5-12-jRF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="884" y="35"/>
+            <point key="canvasLocation" x="65" y="830"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="MtO-ek-A7I"/>
+    </inferredMetricsTieBreakers>
 </document>
